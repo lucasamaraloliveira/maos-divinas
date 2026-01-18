@@ -7,7 +7,7 @@ const WhatsAppFloating: React.FC = () => {
       href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20no%20Mãos%20Divinas."
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[40] bg-[#25d366] text-white rounded-full shadow-[0_10px_40px_rgba(219,158,166,0.3)] hover:scale-[1.02] active:scale-95 transition-all duration-500 flex items-center justify-center group border-2 border-white/20 h-14 w-14 md:h-16 md:w-16 hover:w-auto hover:px-6 md:hover:px-8 opacity-0 animate-reveal-up delay-1000 overflow-hidden"
+      className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[40] bg-[#25d366] text-white rounded-full shadow-[0_10px_40px_rgba(237,75,130,0.3)] hover:scale-[1.02] active:scale-95 transition-all duration-500 flex items-center justify-center group border-2 border-white/20 h-14 w-14 md:h-16 md:w-16 hover:w-auto hover:px-6 md:hover:px-8 opacity-0 animate-reveal-up delay-1000 overflow-hidden"
       aria-label="Agendar via WhatsApp"
     >
       <div className="flex items-center">
