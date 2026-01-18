@@ -72,10 +72,10 @@ const Gallery: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between lg:items-end mb-12 md:mb-16 gap-6 opacity-0 animate-reveal-up">
           <div className="max-w-xl">
-            <h3 className="text-[#d4af37] uppercase tracking-[0.3em] font-semibold text-xs md:text-sm mb-4">Portfólio</h3>
+            <h3 className="text-[#ed4b82] uppercase tracking-[0.3em] font-semibold text-xs md:text-sm mb-4">Portfólio</h3>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-[#2c2c2c]">Brilho em Detalhes</h2>
           </div>
-          <a href="#" className="inline-block text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold border-b-2 border-black pb-1 hover:text-[#d4af37] hover:border-[#d4af37] transition-all w-fit hover-shine">
+          <a href="#" className="inline-block text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold border-b-2 border-black pb-1 hover:text-[#ed4b82] hover:border-[#ed4b82] transition-all w-fit">
             Ver Instagram @MaosDivinas
           </a>
         </div>
@@ -107,7 +107,7 @@ const Gallery: React.FC = () => {
       {selectedItem && (
         <div className={`fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-8 transition-all duration-500 ${isClosing ? 'invisible' : 'visible'}`}>
           <div
-            className={`absolute inset-0 bg-black/90 backdrop-blur-md transition-opacity duration-500 ${isClosing ? 'opacity-0' : 'opacity-100'}`}
+            className={`absolute inset-0 bg-white/80 backdrop-blur-xl transition-opacity duration-500 ${isClosing ? 'opacity-0' : 'opacity-100'}`}
             onClick={closeModal}
           ></div>
 
@@ -115,7 +115,7 @@ const Gallery: React.FC = () => {
 
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 z-10 p-2 text-[#2c2c2c] hover:text-[#d4af37] transition-colors"
+              className="absolute top-4 right-4 z-10 p-2 text-[#333333] hover:text-[#ed4b82] transition-colors"
               aria-label="Fechar"
             >
               <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -133,13 +133,13 @@ const Gallery: React.FC = () => {
             </div>
 
             <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-              <h3 className="text-[#d4af37] uppercase tracking-[0.3em] font-semibold text-[10px] mb-4">
+              <h3 className="text-[#ed4b82] uppercase tracking-[0.3em] font-semibold text-[10px] mb-4">
                 {selectedItem.service}
               </h3>
-              <h2 className="text-3xl md:text-4xl font-serif text-[#2c2c2c] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl font-serif text-[#333333] mb-6 leading-tight">
                 {selectedItem.title}
               </h2>
-              <div className="w-12 h-px bg-[#d4af37] mb-8"></div>
+              <div className="w-12 h-px bg-[#ed4b82] mb-8"></div>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-10 font-light">
                 {selectedItem.description}
               </p>
@@ -148,7 +148,7 @@ const Gallery: React.FC = () => {
                 <a
                   href="#contato"
                   onClick={closeModal}
-                  className="inline-block w-full md:w-auto text-center px-10 py-5 bg-[#2c2c2c] text-white text-[11px] uppercase tracking-[0.2em] font-bold transition-all hover:bg-[#d4af37] hover:shadow-xl active:scale-95"
+                  className="inline-block w-full md:w-auto text-center px-10 py-5 bg-[#ed4b82] text-white text-[11px] uppercase tracking-[0.2em] font-bold transition-all hover:bg-[#d43d6f] shadow-xl active:scale-95"
                 >
                   Agendar Esta Experiência
                 </a>

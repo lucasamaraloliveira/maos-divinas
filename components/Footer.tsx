@@ -3,16 +3,16 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="py-16 bg-[#faf9f6] border-t border-gray-100 opacity-0 animate-reveal-up delay-300">
+    <footer className="py-16 bg-[#faf7f7] border-t border-[#ed4b82]/10 opacity-0 animate-reveal-up delay-300">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-10">
-          <div className="font-serif text-3xl font-bold tracking-widest text-[#d4af37] hover:scale-105 transition-transform duration-500 cursor-default">
+          <div className="font-serif text-3xl font-bold tracking-widest text-[#ed4b82] hover:scale-105 transition-transform duration-500 cursor-default">
             MÃOS DIVINAS
           </div>
-          
+
           <div className="flex flex-wrap justify-center gap-8 text-[10px] uppercase tracking-[0.2em] text-gray-400 font-bold">
             {['Início', 'Sobre', 'Serviços', 'Privacidade'].map(item => (
-              <a key={item} href={`#${item.toLowerCase()}`} className="hover:text-[#d4af37] transition-colors duration-300">{item}</a>
+              <a key={item} href={`#${item.toLowerCase()}`} className="hover:text-[#ed4b82] transition-colors duration-300">{item}</a>
             ))}
           </div>
 
